@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+	<!-- ROUTE BACKEND 
+	<route url="/admin" application="Backend" module="Settings"/>
+	<route url="/admin/user" application="Backend"  module="User"/>
+	<route url="/admin/addPicture" application="Backend" module="UploadPicture"/>
+	<route url="/admin/addAlbum" application="Backend" module="UploadAlbum"/>
+	<route url="/admin/(\w+)" application="Backend" module="Album"/>-->
+
+	<!-- ROUTE CONNEXION/DECO -->
+	<!--<route url="/Connexion" application="Frontend" module="Index"/>-->
+	<route url="/Deconnexion" application="User" module="Deconnexion"/>
+	<route url="/Register" application="User" module="Register"/>
+	<!--<route url="/Profil" application="User" module="Profil"/>-->
+
+	<!-- ROUTE FRONTEND -->
+	<route url="/" application="Frontend" module="Index"/>
+	<route url="/index.php" application="Frontend" module="Index"/>
+	<route url="/classementamis" application="Frontend" module="ClassementAmis"/>
+	<route url="/classementglobal" application="Frontend" module="ClassementGlobal"/>
+	<route url="/jeu" application="Frontend" module="JeuxMemories"/>
+	<route url="/finjeu" application="Frontend" module="Jeux"/>
+	<route url="/index.html" application="Frontend" module="Index"/>
+	
+</routes>

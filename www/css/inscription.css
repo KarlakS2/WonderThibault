@@ -1,0 +1,69 @@
+#inscription{
+	padding:10px;
+	width:40%;
+	margin: 1% auto;
+}
+
+.section1,.section2,.section3{
+ border:none;
+ text-align:center;
+}
+
+#login,#email,#password1,#password2,#avatar{
+display:inline-block;
+}
+
+.classementAmis label{
+display:block;
+margin:10px auto;
+text-align:center;
+}
+
+.classementAmis label img{
+ vertical-align:middle;
+ margin-right:5%
+}
+
+.groupeur{
+display:inline;
+}
+
+.groupeur:hover span,.groupeur:focus span{
+display:block;
+transform:scale(1) rotate(0); 
+opacity:1;
+background-color:black;
+}
+
+.infoIncri{
+display:none;
+ position:absolute;
+ margin-top:0px;
+ font-size:1em;
+ transition:all .25s;
+ opacity:0;
+ margin-left:15px;
+ color:rgb(200, 200, 200);
+ background:rgba(0,0,0,.9);
+ padding:15px;
+ border-radius:3px;
+ box-shadow:0 0 2px rgba(0,0,0,.5);
+ transform:scale(0) rotate(-12deg);
+}
+
+.infoSite{
+display:none;
+ position:absolute;
+ left:30%;
+ margin-top:5%;
+ width:40%;
+ font-size:0.7em;
+ transition:all .25s;
+ opacity:0;
+ color:rgb(200, 200, 200);
+ background:rgba(0,0,0,.9);
+ padding:15px;
+ border-radius:3px;
+ box-shadow:0 0 2px rgba(0,0,0,.5);
+ transform:scale(0) rotate(-12deg);
+}

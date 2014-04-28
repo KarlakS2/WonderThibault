@@ -1,0 +1,19 @@
+.memories{
+min-width:500px;
+min-height:400px;
+width:40%;
+height:80%;
+margin:0 auto;
+}
+
+.memories tr{
+height:100%;
+}
+
+.carte{
+display:inline-block;
+background-color:blue;
+width:11%;
+margin:2%;
+border-radius:5px;
+}
