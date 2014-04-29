@@ -29,10 +29,7 @@ class ApplicationFrontend extends \Library\Application{
 		// INSTANCIATION CONTROLEUR HEADER
 		$NavControleur = new \Library\Controleur\HeaderControleur($this, $route->getMatches());
 		$NavControleur->run();
-	
-		// INSTANCIATION CONTROLEUR MENU
-		$NavControleur = new \Library\Controleur\NavControleur($this, $route->getMatches());
-		$NavControleur->run();
+
 		
 		// ENVOI DE LA PAGE
 		exit($this->_HTTPResponse->send($this->_page->getPage()));

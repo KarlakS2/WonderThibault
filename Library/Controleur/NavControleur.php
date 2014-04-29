@@ -1,7 +1,7 @@
 <?php
 namespace Library\Controleur;
 
-class HeaderControleur extends \Library\Controleur{
+class NavControleur extends \Library\Controleur{
 
 	public function run(){
 	
